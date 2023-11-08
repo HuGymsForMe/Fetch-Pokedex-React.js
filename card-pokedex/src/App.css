@@ -1,0 +1,245 @@
+/********************FUENTES******************/
+@font-face {
+    font-family: 'Epilogue';
+    src: url(./assets/fonts/Epilogue/Epilogue-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: url(./assets/fonts/Onest/Onest-VariableFont_wght.ttf);
+}
+
+/******************VARIABLES*****************/
+:root{
+    --bg-color-normal: #A7AAB0;
+    --bg-color-fight: #F32640;
+    --bg-color-flying: #A6C1EE;
+    --bg-color-poison: #B55EC2;
+    --bg-color-ground: #F08740;
+    --bg-color-rock: #E5D58F;
+    --bg-color-bug: #B0E31F;
+    --bg-color-ghost: #6067CC;
+    --bg-color-steel: #44A7BA;
+    --bg-color-fire: #feb23e;
+    --bg-color-water: #47abf0;
+    --bg-color-grass: #51D653;
+    --bg-color-electric: #FEED23;
+    --bg-color-psychic: #FE7673;
+    --bg-color-ice: #7CE6D9;
+    --bg-color-dragon: #0F70D9;
+    --bg-color-dark: #585A69;
+    --bg-color-fairy: #E7A7D3;
+}
+
+/**************COLORES POR TIPO*****************/
+#tipo_normal{
+    background-color: var(--bg-color-normal);
+}
+
+#tipo_lucha{
+    background-color: var(--bg-color-fight);
+}
+
+#tipo_volador{
+    background-color: var(--bg-color-flying);
+}
+
+#tipo_veneno{
+    background-color: var(--bg-color-poison);
+}
+
+#tipo_tierra{
+    background-color: var(--bg-color-ground);
+}
+
+#tipo_roca{
+    background-color: var(--bg-color-rock);
+}
+
+#tipo_bicho{
+    background-color: var(--bg-color-bug);
+}
+
+#tipo_fantasma{
+    background-color: var(--bg-color-ghost);
+}
+
+#tipo_acero{
+    background-color: var(--bg-color-steel);
+}
+
+#tipo_fuego{
+    background-color: var(--bg-color-fire);
+}
+
+#tipo_agua{
+    background-color: var(--bg-color-water);
+}
+
+#tipo_planta{
+    background-color: var(--bg-color-grass);
+}
+
+#tipo_electrico{
+    background-color: var(--bg-color-electric);
+}
+
+#tipo_psiquico{
+    background-color: var(--bg-color-psychic);
+}
+
+#tipo_hielo{
+    background-color: var(--bg-color-ice);
+}
+
+#tipo_dragon{
+    background-color: var(--bg-color-dragon);
+}
+
+#tipo_siniestro{
+    background-color: var(--bg-color-dark);
+}
+
+#tipo_hada{
+    background-color: var(--bg-color-fairy);
+}
+
+#tipo_none{
+    display: none;
+}
+
+.pkmn__pokedex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*************BLOQUE TITULO************/
+.pkmn__pokedex__title{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.pkmn__pokedex__title__name{
+    font-family: 'Epilogue';
+    display: flex;
+    align-items: center;
+}
+
+.pkmn__pokedex__title__image{
+    width: 6%;
+    height: 6%;
+}
+
+/***************BLOQUE FILTROS*****************/
+.pkmn__pokedex__filters{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: "Onest";
+}
+
+.pkmn__pokedex__filters__container{
+    display: flex;   
+    gap: 40px;
+}
+
+.pkmn__pokedex__filters__container > div{
+    display: flex;
+}
+
+.pkmn__pokedex__filters__container div > label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+}
+
+
+.pkmn__pokedex__filters__container input{
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: .6rem;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.pkmn__pokedex__main{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pkmn__pokedex__main--no-matches{
+    font-size: 2rem;
+    font-family: 'Epilogue';
+}
+
+/***************TARJETAS*****************/
+.pkmn__pokedex__main__card{
+    border-radius: 40px;
+    /*border: 2px solid black;*/
+    display: flex;
+    gap: 20px;
+    font-family: 'Epilogue';
+    max-width: 450px;
+    max-height: 300px;
+    padding: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.pkmn__pokedex__main__card:hover{
+    transform: scale(1.05, 1.05);
+    transition: 500ms linear;
+}
+
+.pkmn__pokedex__main__card__image__url{
+    width: 60%;
+}
+
+.pkmn__pokedex__main__card__info--main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pkmn__pokedex__main__card__info--main__name{
+    font-size: 1.5rem;
+}
+
+.pkmn__pokedex__main__card__info--main__container{
+    display: flex;
+    gap: 10px;
+}
+
+.pkmn__pokedex__main__card__info--main__container__types{
+    border-radius: 20px;
+    padding: .4rem;
+    color: #fff;
+}
+
+.pkmn__pokedex__main__card__info--adicional{
+    display: flex;
+    flex-direction: column;
+}
+
+.pkmn__pokedex__main__card__info--adicional__number{
+    background-color: #7ce8fe;
+    padding: .5rem;
+    color: #fff;
+    border-radius: 20px;
+}
+
+@media (max-width: 1000px){
+    .pkmn__pokedex__filters__container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
