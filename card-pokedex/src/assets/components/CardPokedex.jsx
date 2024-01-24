@@ -5,7 +5,7 @@ export function CardPokedex({imagenPkmn, namePkmn, tipo1, tipo2, contador, peso,
     return (
         <article className='pkmn__pokedex__main__card'>
                 <div className='pkmn__pokedex__main__card__image'>
-                    <img className="pkmn__pokedex__main__card__image__url" src={`../../../public/static/imgs/pokemons/${imagenPkmn}`} alt={namePkmn} />
+                    <img className="pkmn__pokedex__main__card__image__url" src={imagenPkmn} alt={namePkmn} />
                 </div>
                 <div className='pkmn__pokedex__main__card__info--main'>
                     <p className='pkmn__pokedex__main__card__info--main__name'>{namePkmn}</p>
