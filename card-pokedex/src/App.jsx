@@ -8,14 +8,17 @@ import { pokemons } from './assets/js/pokemons';
 import { TitlePokedex } from './assets/components/TitlePokedex';
 import { CardPokedex } from './assets/components/CardPokedex';
 
+/*FILTRO POR NOMBRE*/
 function filterPokemonsByName(pokemons, searchTextName) {
   return pokemons.filter(pokemon => pokemon.namePkmn.toLowerCase().includes(searchTextName.toLowerCase()));
 }
 
+/*FILTRO POR TIPO*/
 function filterPokemonsByType(pokemons, searchTextType) {
   return pokemons.filter(pokemon => pokemon.tipo1.toLowerCase().includes(searchTextType.toLowerCase()) || pokemon.tipo2.toLowerCase().includes(searchTextType.toLowerCase()));
 }
 
+/*COMPONENTE BÚSQUEDA NOMBRE*/
 function SearchInputName({ value, onChange }) {
   return (
           <div className='pkmn__pokedex__filters__container--search'>
@@ -30,6 +33,7 @@ function SearchInputName({ value, onChange }) {
   );
 }
 
+/*COMPONENTE BÚSQUEDA TIPO*/
 function SearchInputType({ value, onChange }) {
   return (
     <div className='pkmn__pokedex__filters__container--tipo'>
@@ -58,9 +62,26 @@ function SearchInputType({ value, onChange }) {
 //   );
 // }
 
+/*GENERA LA LISTA "DEFAULT" DE POKEMONS*/
 function PokemonsList({ pokemons, emptyHeading }) {
   if (pokemons.length === 0) {
-    return <p className='pkmn__pokedex__main--no-matches'>{emptyHeading}</p>; //Aplicar estilos a la excepción
+    return (
+      <>
+        <p className='pkmn__pokedex__main--no-matches'>{emptyHeading}<span id='puntos_suspensivos'></span></p>
+        {/* <script>
+        {
+        setInterval(() => {
+            const puntosSuspensivos = document.querySelector("#puntos_suspensivos");
+            if (puntosSuspensivos.textContent.length < 3){
+              puntosSuspensivos.textContent += ".";
+            } else {
+              puntosSuspensivos.textContent = "";
+            }  
+        }, 1000)
+        }
+        </script> */} 
+      </>
+    ); //Controlar los puntos suspensivos
   }
 
   return (
