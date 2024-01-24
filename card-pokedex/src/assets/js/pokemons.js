@@ -1,6 +1,6 @@
 export const pokemons = [
     {
-      imagenPkmn: 'bulbasaur.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/bulbasaur.png',
       namePkmn: 'Bulbasaur',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -9,7 +9,7 @@ export const pokemons = [
       contador: "1"
     },
     {
-      imagenPkmn: 'ivysaur.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/ivysaur.png',
       namePkmn: 'Ivysaur',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -18,7 +18,7 @@ export const pokemons = [
       contador: "2"
     },
     {
-      imagenPkmn: 'venusaur.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/venusaur.png',
       namePkmn: 'Venusaur',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -27,7 +27,7 @@ export const pokemons = [
       contador: "3"
     },
     {
-      imagenPkmn: 'charmander.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/charmander.png',
       namePkmn: 'Charmander',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -36,7 +36,7 @@ export const pokemons = [
       contador: "4"
     },
     {
-      imagenPkmn: 'charmeleon.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/charmeleon.png',
       namePkmn: 'Charmeleon',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -45,7 +45,7 @@ export const pokemons = [
       contador: "5"
     },
     {
-      imagenPkmn: 'charizard.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/charizard.png',
       namePkmn: 'Charizard',
       tipo1: 'fuego',
       tipo2: 'volador',
@@ -54,7 +54,7 @@ export const pokemons = [
       contador: "6"
     },
     {
-      imagenPkmn: 'squirtle.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/squirtle.png',
       namePkmn: 'Squirtle',
       tipo1: 'agua',
       tipo2: 'none',
@@ -63,7 +63,7 @@ export const pokemons = [
       contador: "7"
     },
     {
-      imagenPkmn: 'wartortle.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/wartortle.png',
       namePkmn: 'Wartortle',
       tipo1: 'agua',
       tipo2: 'none',
@@ -72,7 +72,7 @@ export const pokemons = [
       contador: "8"
     },
     {
-      imagenPkmn: 'blastoise.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/blastoise.png',
       namePkmn: 'Blastoise',
       tipo1: 'agua',
       tipo2: 'none',
@@ -81,7 +81,7 @@ export const pokemons = [
       contador: "9"
     },
     {
-      imagenPkmn: 'caterpie.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/caterpie.png',
       namePkmn: 'Caterpie',
       tipo1: 'bicho',
       tipo2: 'none',
@@ -90,7 +90,7 @@ export const pokemons = [
       contador: "10"
     },
     {
-      imagenPkmn: 'metapod.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/metapod.png',
       namePkmn: 'Metapod',
       tipo1: 'bicho',
       tipo2: 'none',
@@ -99,7 +99,7 @@ export const pokemons = [
       contador: "11"
     },
     {
-      imagenPkmn: 'butterfree.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/butterfree.png',
       namePkmn: 'Butterfree',
       tipo1: 'bicho',
       tipo2: 'volador',
@@ -108,7 +108,7 @@ export const pokemons = [
       contador: "12"
     },
     {
-      imagenPkmn: 'weedle.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/weedle.png',
       namePkmn: 'Weedle',
       tipo1: 'bicho',
       tipo2: 'veneno',
@@ -117,7 +117,7 @@ export const pokemons = [
       contador: "13"
     },
     {
-      imagenPkmn: 'kakuna.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/kakuna.png',
       namePkmn: 'Kakuna',
       tipo1: 'bicho',
       tipo2: 'veneno',
@@ -126,7 +126,7 @@ export const pokemons = [
       contador: "14"
     },
     {
-      imagenPkmn: 'beedril.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/beedril.png',
       namePkmn: 'Beedrill',
       tipo1: 'bicho',
       tipo2: 'veneno',
@@ -135,7 +135,7 @@ export const pokemons = [
       contador: "15"
     },
     {
-      imagenPkmn: 'pidgey.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/pidgey.png',
       namePkmn: 'Pidgey',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -144,7 +144,7 @@ export const pokemons = [
       contador: "16"
     },
     {
-      imagenPkmn: 'pidgeotto.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/pidgeotto.png',
       namePkmn: 'Pidgeotto',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -153,7 +153,7 @@ export const pokemons = [
       contador: "17"
     },
     {
-      imagenPkmn: 'pidgeot.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/pidgeot.png',
       namePkmn: 'Pidgeot',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -162,7 +162,7 @@ export const pokemons = [
       contador: "18"
     },
     {
-      imagenPkmn: 'rattata.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/rattata.png',
       namePkmn: 'Rattata',
       tipo1: 'normal',
       tipo2: 'none',
@@ -171,7 +171,7 @@ export const pokemons = [
       contador: "19"
     },
     {
-      imagenPkmn: 'raticate.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/raticate.png',
       namePkmn: 'Raticate',
       tipo1: 'normal',
       tipo2: 'none',
@@ -180,7 +180,7 @@ export const pokemons = [
       contador: "20"
     },
     {
-      imagenPkmn: 'spearow.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/spearow.png',
       namePkmn: 'Spearow',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -189,7 +189,7 @@ export const pokemons = [
       contador: "21"
     },
     {
-      imagenPkmn: 'fearow.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/fearow.png',
       namePkmn: 'Fearow',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -198,7 +198,7 @@ export const pokemons = [
       contador: "22"
     },
     {
-      imagenPkmn: 'ekans.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/ekans.png',
       namePkmn: 'Ekans',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -207,7 +207,7 @@ export const pokemons = [
       contador: "23"
     },
     {
-      imagenPkmn: 'arbok.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/arbok.png',
       namePkmn: 'Arbok',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -216,7 +216,7 @@ export const pokemons = [
       contador: "24"
     },
     {
-      imagenPkmn: 'pikachu.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/pikachu.png',
       namePkmn: 'Pikachu',
       tipo1: 'electrico',
       tipo2: 'none',
@@ -225,7 +225,7 @@ export const pokemons = [
       contador: "25"
     },
     {
-      imagenPkmn: 'raichu.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/raichu.png',
       namePkmn: 'Raichu',
       tipo1: 'electrico',
       tipo2: 'none',
@@ -234,7 +234,7 @@ export const pokemons = [
       contador: "26"
     },
     {
-      imagenPkmn: 'sandshrew.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/sandshrew.png',
       namePkmn: 'Sandshrew',
       tipo1: 'tierra',
       tipo2: 'none',
@@ -243,7 +243,7 @@ export const pokemons = [
       contador: "27"
     },
     {
-      imagenPkmn: 'sandslash.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/sandslash.png',
       namePkmn: 'Sandslash',
       tipo1: 'tierra',
       tipo2: 'none',
@@ -252,7 +252,7 @@ export const pokemons = [
       contador: "28"
     },
     {
-      imagenPkmn: 'nidoran_hembra.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/nidoran_hembra.png',
       namePkmn: 'Nidoran',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -261,7 +261,7 @@ export const pokemons = [
       contador: "29"
     },
     {
-      imagenPkmn: 'nidorina.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/nidorina.png',
       namePkmn: 'Nidorina',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -270,7 +270,7 @@ export const pokemons = [
       contador: "30"
     },
     {
-      imagenPkmn: 'nidoqueen.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/nidoqueen.png',
       namePkmn: 'Nidoqueen',
       tipo1: 'veneno',
       tipo2: 'tierra',
@@ -279,7 +279,7 @@ export const pokemons = [
       contador: "31"
     },
     {
-      imagenPkmn: 'nidoran_masculino.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/nidoran_masculino.png',
       namePkmn: 'Nidoran',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -288,7 +288,7 @@ export const pokemons = [
       contador: "32"
     },
     {
-      imagenPkmn: 'nidorino.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/nidorino.png',
       namePkmn: 'Nidorino',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -297,7 +297,7 @@ export const pokemons = [
       contador: "33"
     },
     {
-      imagenPkmn: 'nidoking.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/nidoking.png',
       namePkmn: 'Nidoking',
       tipo1: 'veneno',
       tipo2: 'tierra',
@@ -306,7 +306,7 @@ export const pokemons = [
       contador: "34"
     },
     {
-      imagenPkmn: 'clefairy.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/clefairy.png',
       namePkmn: 'Clefairy',
       tipo1: 'hada',
       tipo2: 'none',
@@ -315,7 +315,7 @@ export const pokemons = [
       contador: "35"
     },
     {
-      imagenPkmn: 'clefable.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/clefable.png',
       namePkmn: 'Clefable',
       tipo1: 'hada',
       tipo2: 'none',
@@ -324,7 +324,7 @@ export const pokemons = [
       contador: "36"
     },
     {
-      imagenPkmn: 'vulpix.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/vulpix.png',
       namePkmn: 'Vulpix',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -333,7 +333,7 @@ export const pokemons = [
       contador: "37"
     },
     {
-      imagenPkmn: 'ninetales.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/ninetales.png',
       namePkmn: 'Ninetales',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -342,7 +342,7 @@ export const pokemons = [
       contador: "38"
     },
     {
-      imagenPkmn: 'jigglypuff.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/jigglypuff.png',
       namePkmn: 'Jigglypuff',
       tipo1: 'normal',
       tipo2: 'hada',
@@ -351,7 +351,7 @@ export const pokemons = [
       contador: "39"
     },
     {
-      imagenPkmn: 'wigglytuff.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/wigglytuff.png',
       namePkmn: 'Wigglytuff',
       tipo1: 'normal',
       tipo2: 'hada',
@@ -360,7 +360,7 @@ export const pokemons = [
       contador: "40"
     },
     {
-      imagenPkmn: 'zubat.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/zubat.png',
       namePkmn: 'Zubat',
       tipo1: 'veneno',
       tipo2: 'volador',
@@ -369,7 +369,7 @@ export const pokemons = [
       contador: "41"
     },
     {
-      imagenPkmn: 'golbat.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/golbat.png',
       namePkmn: 'Golbat',
       tipo1: 'veneno',
       tipo2: 'volador',
@@ -378,7 +378,7 @@ export const pokemons = [
       contador: "42"
     },
     {
-      imagenPkmn: 'oddish.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/oddish.png',
       namePkmn: 'Oddish',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -387,7 +387,7 @@ export const pokemons = [
       contador: "43"
     },
     {
-      imagenPkmn: 'gloom.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/gloom.png',
       namePkmn: 'Gloom',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -396,7 +396,7 @@ export const pokemons = [
       contador: "44"
     },
     {
-      imagenPkmn: 'vileplume.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/vileplume.png',
       namePkmn: 'Vileplume',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -405,7 +405,7 @@ export const pokemons = [
       contador: "45"
     },
     {
-      imagenPkmn: 'paras.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/paras.png',
       namePkmn: 'Paras',
       tipo1: 'bicho',
       tipo2: 'planta',
@@ -414,7 +414,7 @@ export const pokemons = [
       contador: "46"
     },
     {
-      imagenPkmn: 'parasect.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/parasect.png',
       namePkmn: 'Parasect',
       tipo1: 'bicho',
       tipo2: 'planta',
@@ -423,7 +423,7 @@ export const pokemons = [
       contador: "47"
     },
     {
-      imagenPkmn: 'venonat.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/venonat.png',
       namePkmn: 'Venonat',
       tipo1: 'bicho',
       tipo2: 'veneno',
@@ -432,7 +432,7 @@ export const pokemons = [
       contador: "48"
     },
     {
-      imagenPkmn: 'venomoth.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/venomoth.png',
       namePkmn: 'Venomoth',
       tipo1: 'bicho',
       tipo2: 'veneno',
@@ -441,7 +441,7 @@ export const pokemons = [
       contador: "49"
     },
     {
-      imagenPkmn: 'diglett.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/diglett.png',
       namePkmn: 'Diglett',
       tipo1: 'tierra',
       tipo2: 'none',
@@ -450,7 +450,7 @@ export const pokemons = [
       contador: "50"
     },
     {
-      imagenPkmn: 'dugtrio.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/dugtrio.png',
       namePkmn: 'Dugtrio',
       tipo1: 'tierra',
       tipo2: 'none',
@@ -459,7 +459,7 @@ export const pokemons = [
       contador: "51"
     },
     {
-      imagenPkmn: 'meowth.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/meowth.png',
       namePkmn: 'Meowth',
       tipo1: 'normal',
       tipo2: 'none',
@@ -468,7 +468,7 @@ export const pokemons = [
       contador: "52"
     },
     {
-      imagenPkmn: 'persian.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/persian.png',
       namePkmn: 'Persian',
       tipo1: 'normal',
       tipo2: 'none',
@@ -477,7 +477,7 @@ export const pokemons = [
       contador: "53"
     },
     {
-      imagenPkmn: 'psyduck.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/psyduck.png',
       namePkmn: 'Psyduck',
       tipo1: 'agua',
       tipo2: 'none',
@@ -486,7 +486,7 @@ export const pokemons = [
       contador: "54"
     },
     {
-      imagenPkmn: 'golduck.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/golduck.png',
       namePkmn: 'Golduck',
       tipo1: 'agua',
       tipo2: 'none',
@@ -495,7 +495,7 @@ export const pokemons = [
       contador: "55"
     },
     {
-      imagenPkmn: 'mankey.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/mankey.png',
       namePkmn: 'Mankey',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -504,7 +504,7 @@ export const pokemons = [
       contador: "56"
     },
     {
-      imagenPkmn: 'primeape.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/primeape.png',
       namePkmn: 'Primeape',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -513,7 +513,7 @@ export const pokemons = [
       contador: "57"
     },
     {
-      imagenPkmn: 'growlithe.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/growlithe.png',
       namePkmn: 'Growlithe',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -522,7 +522,7 @@ export const pokemons = [
       contador: "58"
     },
     {
-      imagenPkmn: 'arcanine.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/arcanine.png',
       namePkmn: 'Arcanine',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -531,7 +531,7 @@ export const pokemons = [
       contador: "59"
     },
     {
-      imagenPkmn: 'poliwag.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/poliwag.png',
       namePkmn: 'Poliwag',
       tipo1: 'agua',
       tipo2: 'none',
@@ -540,7 +540,7 @@ export const pokemons = [
       contador: "60"
     },
     {
-      imagenPkmn: 'poliwhirl.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/poliwhirl.png',
       namePkmn: 'Poliwhirl',
       tipo1: 'agua',
       tipo2: 'none',
@@ -549,7 +549,7 @@ export const pokemons = [
       contador: "61"
     },
     {
-      imagenPkmn: 'poliwrath.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/poliwrath.png',
       namePkmn: 'Poliwrath',
       tipo1: 'agua',
       tipo2: 'lucha',
@@ -558,7 +558,7 @@ export const pokemons = [
       contador: "62"
     },
     {
-      imagenPkmn: 'abra.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/abra.png',
       namePkmn: 'Abra',
       tipo1: 'psiquico',
       tipo2: 'none',
@@ -567,7 +567,7 @@ export const pokemons = [
       contador: "63"
     },
     {
-      imagenPkmn: 'kadabra.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/kadabra.png',
       namePkmn: 'Kadabra',
       tipo1: 'psiquico',
       tipo2: 'none',
@@ -576,7 +576,7 @@ export const pokemons = [
       contador: "64"
     },
     {
-      imagenPkmn: 'alakazam.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/alakazam.png',
       namePkmn: 'Alakazam',
       tipo1: 'psiquico',
       tipo2: 'none',
@@ -585,7 +585,7 @@ export const pokemons = [
       contador: "65"
     },
     {
-      imagenPkmn: 'machop.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/machop.png',
       namePkmn: 'Machop',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -594,7 +594,7 @@ export const pokemons = [
       contador: "66"
     },
     {
-      imagenPkmn: 'machoke.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/machoke.png',
       namePkmn: 'Machoke',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -603,7 +603,7 @@ export const pokemons = [
       contador: "67"
     },
     {
-      imagenPkmn: 'machamp.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/machamp.png',
       namePkmn: 'Machamp',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -612,7 +612,7 @@ export const pokemons = [
       contador: "68"
     },
     {
-      imagenPkmn: 'bellsprout.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/bellsprout.png',
       namePkmn: 'Bellsprout',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -621,7 +621,7 @@ export const pokemons = [
       contador: "69"
     },
     {
-      imagenPkmn: 'weepinbell.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/weepinbell.png',
       namePkmn: 'Weepinbell',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -630,7 +630,7 @@ export const pokemons = [
       contador: "70"
     },
     {
-      imagenPkmn: 'victreebell.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/victreebell.png',
       namePkmn: 'Victreebell',
       tipo1: 'planta',
       tipo2: 'veneno',
@@ -639,7 +639,7 @@ export const pokemons = [
       contador: "71"
     },
     {
-      imagenPkmn: 'tentacool.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/tentacool.png',
       namePkmn: 'Tentacool',
       tipo1: 'agua',
       tipo2: 'veneno',
@@ -648,7 +648,7 @@ export const pokemons = [
       contador: "72"
     },
     {
-      imagenPkmn: 'tentacruel.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/tentacruel.png',
       namePkmn: 'Tentacruel',
       tipo1: 'agua',
       tipo2: 'veneno',
@@ -657,7 +657,7 @@ export const pokemons = [
       contador: "73"
     },
     {
-      imagenPkmn: 'geodude.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/geodude.png',
       namePkmn: 'Geodude',
       tipo1: 'roca',
       tipo2: 'tierra',
@@ -666,7 +666,7 @@ export const pokemons = [
       contador: "74"
     },
     {
-      imagenPkmn: 'graveler.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/graveler.png',
       namePkmn: 'Graveler',
       tipo1: 'roca',
       tipo2: 'tierra',
@@ -675,7 +675,7 @@ export const pokemons = [
       contador: "75"
     },
     {
-      imagenPkmn: 'golem.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/golem.png',
       namePkmn: 'Golem',
       tipo1: 'roca',
       tipo2: 'tierra',
@@ -684,7 +684,7 @@ export const pokemons = [
       contador: "76"
     },
     {
-      imagenPkmn: 'ponyta.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/ponyta.png',
       namePkmn: 'Ponyta',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -693,7 +693,7 @@ export const pokemons = [
       contador: "77"
     },
     {
-      imagenPkmn: 'rapidash.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/rapidash.png',
       namePkmn: 'Rapidash',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -702,7 +702,7 @@ export const pokemons = [
       contador: "78"
     },
     {
-      imagenPkmn: 'slowpoke.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/slowpoke.png',
       namePkmn: 'Slowpoke',
       tipo1: 'agua',
       tipo2: 'pisquico',
@@ -711,7 +711,7 @@ export const pokemons = [
       contador: "79"
     },
     {
-      imagenPkmn: 'slowbro.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/slowbro.png',
       namePkmn: 'Slowbro',
       tipo1: 'agua',
       tipo2: 'pisquico',
@@ -720,7 +720,7 @@ export const pokemons = [
       contador: "80"
     },
     {
-      imagenPkmn: 'magnemite.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/magnemite.png',
       namePkmn: 'Magnemite',
       tipo1: 'electrico',
       tipo2: 'acero',
@@ -729,7 +729,7 @@ export const pokemons = [
       contador: "81"
     },
     {
-      imagenPkmn: 'magneton.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/magneton.png',
       namePkmn: 'Magneton',
       tipo1: 'electrico',
       tipo2: 'acero',
@@ -738,7 +738,7 @@ export const pokemons = [
       contador: "82"
     },
     {
-      imagenPkmn: 'farfetch\'d.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/farfetch\'d.png',
       namePkmn: 'Farfetch\'d',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -747,7 +747,7 @@ export const pokemons = [
       contador: "83"
     },
     {
-      imagenPkmn: 'doduo.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/doduo.png',
       namePkmn: 'Doduo',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -756,7 +756,7 @@ export const pokemons = [
       contador: "84"
     },
     {
-      imagenPkmn: 'dodrio.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/dodrio.png',
       namePkmn: 'Dodrio',
       tipo1: 'normal',
       tipo2: 'volador',
@@ -765,7 +765,7 @@ export const pokemons = [
       contador: "85"
     },
     {
-      imagenPkmn: 'seel.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/seel.png',
       namePkmn: 'Seel',
       tipo1: 'agua',
       tipo2: 'none',
@@ -774,7 +774,7 @@ export const pokemons = [
       contador: "86"
     },
     {
-      imagenPkmn: 'dewgong.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/dewgong.png',
       namePkmn: 'Dewgong',
       tipo1: 'agua',
       tipo2: 'none',
@@ -783,7 +783,7 @@ export const pokemons = [
       contador: "87"
     },
     {
-      imagenPkmn: 'grimer.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/grimer.png',
       namePkmn: 'Grimer',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -792,7 +792,7 @@ export const pokemons = [
       contador: "88"
     },
     {
-      imagenPkmn: 'muk.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/muk.png',
       namePkmn: 'Muk',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -801,7 +801,7 @@ export const pokemons = [
       contador: "89"
     },
     {
-      imagenPkmn: 'shellder.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/shellder.png',
       namePkmn: 'Shellder',
       tipo1: 'agua',
       tipo2: 'none',
@@ -810,7 +810,7 @@ export const pokemons = [
       contador: "90"
     },
     {
-      imagenPkmn: 'cloyster.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/cloyster.png',
       namePkmn: 'Cloyster',
       tipo1: 'agua',
       tipo2: 'none',
@@ -819,7 +819,7 @@ export const pokemons = [
       contador: "91"
     },
     {
-      imagenPkmn: 'gastly.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/gastly.png',
       namePkmn: 'Gastly',
       tipo1: 'fantasma',
       tipo2: 'veneno',
@@ -828,7 +828,7 @@ export const pokemons = [
       contador: "92"
     },
     {
-      imagenPkmn: 'haunter.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/haunter.png',
       namePkmn: 'Haunter',
       tipo1: 'fantasma',
       tipo2: 'veneno',
@@ -837,7 +837,7 @@ export const pokemons = [
       contador: "93"
     },
     {
-      imagenPkmn: 'gengar.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/gengar.png',
       namePkmn: 'Gengar',
       tipo1: 'fantasma',
       tipo2: 'veneno',
@@ -846,7 +846,7 @@ export const pokemons = [
       contador: "94"
     },
     {
-      imagenPkmn: 'onix.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/onix.png',
       namePkmn: 'Onix',
       tipo1: 'roca',
       tipo2: 'tierra',
@@ -855,7 +855,7 @@ export const pokemons = [
       contador: "95"
     },
     {
-      imagenPkmn: 'drowzee.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/drowzee.png',
       namePkmn: 'Drowzee',
       tipo1: 'psiquico',
       tipo2: 'none',
@@ -864,7 +864,7 @@ export const pokemons = [
       contador: "96"
     },
     {
-      imagenPkmn: 'hypno.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/hypno.png',
       namePkmn: 'Hypno',
       tipo1: 'psiquico',
       tipo2: 'none',
@@ -873,7 +873,7 @@ export const pokemons = [
       contador: "97"
     },
     {
-      imagenPkmn: 'krabby.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/krabby.png',
       namePkmn: 'Krabby',
       tipo1: 'agua',
       tipo2: 'none',
@@ -882,7 +882,7 @@ export const pokemons = [
       contador: "98"
     },
     {
-      imagenPkmn: 'kingler.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/kingler.png',
       namePkmn: 'Kingler',
       tipo1: 'agua',
       tipo2: 'none',
@@ -891,7 +891,7 @@ export const pokemons = [
       contador: "99"
     },
     {
-      imagenPkmn: 'voltorb.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/voltorb.png',
       namePkmn: 'Voltorb',
       tipo1: 'electrico',
       tipo2: 'none',
@@ -900,7 +900,7 @@ export const pokemons = [
       contador: "100"
     },
     {
-      imagenPkmn: 'electrode.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/electrode.png',
       namePkmn: 'Electrode',
       tipo1: 'electrico',
       tipo2: 'none',
@@ -909,7 +909,7 @@ export const pokemons = [
       contador: "101"
     },
     {
-      imagenPkmn: 'exeggcute.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/exeggcute.png',
       namePkmn: 'Exxegcute',
       tipo1: 'planta',
       tipo2: 'psiquico',
@@ -918,7 +918,7 @@ export const pokemons = [
       contador: "102"
     },
     {
-      imagenPkmn: 'exeggutor.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/exeggutor.png',
       namePkmn: 'Exeggutor',
       tipo1: 'planta',
       tipo2: 'psiquico',
@@ -927,7 +927,7 @@ export const pokemons = [
       contador: "103"
     },
     {
-      imagenPkmn: 'cubone.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/cubone.png',
       namePkmn: 'Cubone',
       tipo1: 'tierra',
       tipo2: 'none',
@@ -936,7 +936,7 @@ export const pokemons = [
       contador: "104"
     },
     {
-      imagenPkmn: 'marowak.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/marowak.png',
       namePkmn: 'Marowak',
       tipo1: 'tierra',
       tipo2: 'none',
@@ -945,7 +945,7 @@ export const pokemons = [
       contador: "105"
     },
     {
-      imagenPkmn: 'hitmonlee.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/hitmonlee.png',
       namePkmn: 'Hitmonlee',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -954,7 +954,7 @@ export const pokemons = [
       contador: "106"
     },
     {
-      imagenPkmn: 'hitmonchan.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/hitmonchan.png',
       namePkmn: 'Hitmonchan',
       tipo1: 'lucha',
       tipo2: 'none',
@@ -963,7 +963,7 @@ export const pokemons = [
       contador: "107"
     },
     {
-      imagenPkmn: 'lickitung.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/lickitung.png',
       namePkmn: 'Lickitung',
       tipo1: 'normal',
       tipo2: 'none',
@@ -972,7 +972,7 @@ export const pokemons = [
       contador: "108"
     },
     {
-      imagenPkmn: 'koffing.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/koffing.png',
       namePkmn: 'Koffing',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -981,7 +981,7 @@ export const pokemons = [
       contador: "109"
     },
     {
-      imagenPkmn: 'weezing.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/weezing.png',
       namePkmn: 'Weezing',
       tipo1: 'veneno',
       tipo2: 'none',
@@ -990,7 +990,7 @@ export const pokemons = [
       contador: "110"
     },
     {
-      imagenPkmn: 'rhyhorn.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/rhyhorn.png',
       namePkmn: 'Rhyhorn',
       tipo1: 'tierra',
       tipo2: 'roca',
@@ -999,7 +999,7 @@ export const pokemons = [
       contador: "111"
     },
     {
-      imagenPkmn: 'rhydon.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/rhydon.png',
       namePkmn: 'Rhydon',
       tipo1: 'tierra',
       tipo2: 'roca',
@@ -1008,7 +1008,7 @@ export const pokemons = [
       contador: "112"
     },
     {
-      imagenPkmn: 'chansey.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/chansey.png',
       namePkmn: 'Chansey',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1017,7 +1017,7 @@ export const pokemons = [
       contador: "113"
     },
     {
-      imagenPkmn: 'tangela.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/tangela.png',
       namePkmn: 'Tangela',
       tipo1: 'planta',
       tipo2: 'none',
@@ -1026,7 +1026,7 @@ export const pokemons = [
       contador: "114"
     },
     {
-      imagenPkmn: 'kangaskhan.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/kangaskhan.png',
       namePkmn: 'Kangaskhan',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1035,7 +1035,7 @@ export const pokemons = [
       contador: "115"
     },
     {
-      imagenPkmn: 'horsea.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/horsea.png',
       namePkmn: 'Horsea',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1044,7 +1044,7 @@ export const pokemons = [
       contador: "116"
     },
     {
-      imagenPkmn: 'seadra.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/seadra.png',
       namePkmn: 'Seadra',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1053,7 +1053,7 @@ export const pokemons = [
       contador: "117"
     },
     {
-      imagenPkmn: 'goldeen.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/goldeen.png',
       namePkmn: 'Goldeen',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1062,7 +1062,7 @@ export const pokemons = [
       contador: "118"
     },
     {
-      imagenPkmn: 'seaking.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/seaking.png',
       namePkmn: 'Seaking',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1071,7 +1071,7 @@ export const pokemons = [
       contador: "119"
     },
     {
-      imagenPkmn: 'staryu.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/staryu.png',
       namePkmn: 'Staryu',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1080,7 +1080,7 @@ export const pokemons = [
       contador: "120"
     },
     {
-      imagenPkmn: 'starmie.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/starmie.png',
       namePkmn: 'Starmie',
       tipo1: 'agua',
       tipo2: 'psiquico',
@@ -1089,7 +1089,7 @@ export const pokemons = [
       contador: "121"
     },
     {
-      imagenPkmn: 'mrmime.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/mrmime.png',
       namePkmn: 'Mr.Mime',
       tipo1: 'psiquico',
       tipo2: 'hada',
@@ -1098,7 +1098,7 @@ export const pokemons = [
       contador: "122"
     },
     {
-      imagenPkmn: 'scyther.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/scyther.png',
       namePkmn: 'Scyther',
       tipo1: 'bicho',
       tipo2: 'volador',
@@ -1107,7 +1107,7 @@ export const pokemons = [
       contador: "123"
     },
     {
-      imagenPkmn: 'jynx.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/jynx.png',
       namePkmn: 'Jynx',
       tipo1: 'hielo',
       tipo2: 'psiquico',
@@ -1116,7 +1116,7 @@ export const pokemons = [
       contador: "124"
     },
     {
-      imagenPkmn: 'electabuzz.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/electabuzz.png',
       namePkmn: 'Electabuzz',
       tipo1: 'electrico',
       tipo2: 'none',
@@ -1125,7 +1125,7 @@ export const pokemons = [
       contador: "125"
     },
     {
-      imagenPkmn: 'magmar.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/magmar.png',
       namePkmn: 'Magmar',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -1134,7 +1134,7 @@ export const pokemons = [
       contador: "126"
     },
     {
-      imagenPkmn: 'pinsir.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/pinsir.png',
       namePkmn: 'Pinsir',
       tipo1: 'bicho',
       tipo2: 'none',
@@ -1143,7 +1143,7 @@ export const pokemons = [
       contador: "127"
     },
     {
-      imagenPkmn: 'tauros.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/tauros.png',
       namePkmn: 'Tauros',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1152,7 +1152,7 @@ export const pokemons = [
       contador: "128"
     },
     {
-      imagenPkmn: 'magikarp.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/magikarp.png',
       namePkmn: 'Magikarp',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1161,7 +1161,7 @@ export const pokemons = [
       contador: "129"
     },
     {
-      imagenPkmn: 'gyarados.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/gyarados.png',
       namePkmn: 'Gyarados',
       tipo1: 'agua',
       tipo2: 'volador',
@@ -1170,7 +1170,7 @@ export const pokemons = [
       contador: "130"
     },
     {
-      imagenPkmn: 'lapras.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/lapras.png',
       namePkmn: 'Lapras',
       tipo1: 'agua',
       tipo2: 'hielo',
@@ -1179,7 +1179,7 @@ export const pokemons = [
       contador: "131"
     },
     {
-      imagenPkmn: 'ditto.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/ditto.png',
       namePkmn: 'Ditto',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1188,7 +1188,7 @@ export const pokemons = [
       contador: "132"
     },
     {
-      imagenPkmn: 'eevee.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/eevee.png',
       namePkmn: 'Eevee',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1197,7 +1197,7 @@ export const pokemons = [
       contador: "133"
     },
     {
-      imagenPkmn: 'vaporeon.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/vaporeon.png',
       namePkmn: 'Vaporeon',
       tipo1: 'agua',
       tipo2: 'none',
@@ -1206,7 +1206,7 @@ export const pokemons = [
       contador: "134"
     },
     {
-      imagenPkmn: 'jolteon.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/jolteon.png',
       namePkmn: 'Jolteon',
       tipo1: 'electrico',
       tipo2: 'none',
@@ -1215,7 +1215,7 @@ export const pokemons = [
       contador: "135"
     },
     {
-      imagenPkmn: 'flareon.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/flareon.png',
       namePkmn: 'Flareon',
       tipo1: 'fuego',
       tipo2: 'none',
@@ -1224,7 +1224,7 @@ export const pokemons = [
       contador: "136"
     },
     {
-      imagenPkmn: 'porygon.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/porygon.png',
       namePkmn: 'Porygon',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1233,7 +1233,7 @@ export const pokemons = [
       contador: "137"
     },
     {
-      imagenPkmn: 'omanyte.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/omanyte.png',
       namePkmn: 'Omanyte',
       tipo1: 'roca',
       tipo2: 'agua',
@@ -1242,7 +1242,7 @@ export const pokemons = [
       contador: "138"
     },
     {
-      imagenPkmn: 'omastar.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/omastar.png',
       namePkmn: 'Omastar',
       tipo1: 'roca',
       tipo2: 'agua',
@@ -1251,7 +1251,7 @@ export const pokemons = [
       contador: "139"
     },
     {
-      imagenPkmn: 'kabuto.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/kabuto.png',
       namePkmn: 'Kabuto',
       tipo1: 'roca',
       tipo2: 'agua',
@@ -1260,7 +1260,7 @@ export const pokemons = [
       contador: "140"
     },
     {
-      imagenPkmn: 'kabutops.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/kabutops.png',
       namePkmn: 'Kabutops',
       tipo1: 'roca',
       tipo2: 'agua',
@@ -1269,7 +1269,7 @@ export const pokemons = [
       contador: "141"
     },
     {
-      imagenPkmn: 'aerodactyl.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/aerodactyl.png',
       namePkmn: 'Aerodactyl',
       tipo1: 'roca',
       tipo2: 'volador',
@@ -1278,7 +1278,7 @@ export const pokemons = [
       contador: "142"
     },
     {
-      imagenPkmn: 'snorlax.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/snorlax.png',
       namePkmn: 'Snorlax',
       tipo1: 'normal',
       tipo2: 'none',
@@ -1287,7 +1287,7 @@ export const pokemons = [
       contador: "143"
     },
     {
-      imagenPkmn: 'articuno.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/articuno.png',
       namePkmn: 'Articuno',
       tipo1: 'volador',
       tipo2: 'hielo',
@@ -1296,7 +1296,7 @@ export const pokemons = [
       contador: "144"
     },
     {
-      imagenPkmn: 'zapdos.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/zapdos.png',
       namePkmn: 'Zapdos',
       tipo1: 'volador',
       tipo2: 'electrico',
@@ -1305,7 +1305,7 @@ export const pokemons = [
       contador: "145"
     },
     {
-      imagenPkmn: 'moltres.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/moltres.png',
       namePkmn: 'Moltres',
       tipo1: 'volador',
       tipo2: 'fuego',
@@ -1314,7 +1314,7 @@ export const pokemons = [
       contador: "146"
     },
     {
-      imagenPkmn: 'dratini.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/dratini.png',
       namePkmn: 'Dratini',
       tipo1: 'dragon',
       tipo2: 'none',
@@ -1323,7 +1323,7 @@ export const pokemons = [
       contador: "147"
     },
     {
-      imagenPkmn: 'dragonair.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/dragonair.png',
       namePkmn: 'Dragonair',
       tipo1: 'dragon',
       tipo2: 'none',
@@ -1332,7 +1332,7 @@ export const pokemons = [
       contador: "148"
     },
     {
-      imagenPkmn: 'dragonite.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/dragonite.png',
       namePkmn: 'Dragonite',
       tipo1: 'dragon',
       tipo2: 'volador',
@@ -1341,7 +1341,7 @@ export const pokemons = [
       contador: "149"
     },
     {
-      imagenPkmn: 'mewtwo.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/mewtwo.png',
       namePkmn: 'Mewtwo',
       tipo1: 'psiquico',
       tipo2: 'none',
@@ -1350,7 +1350,7 @@ export const pokemons = [
       contador: "150"
     },
     {
-      imagenPkmn: 'mew.png',
+      imagenPkmn: '../../../public/static/imgs/pokemons/mew.png',
       namePkmn: 'Mew',
       tipo1: 'psiquico',
       tipo2: 'none',
